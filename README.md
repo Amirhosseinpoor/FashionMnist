@@ -73,16 +73,6 @@ We split the dataset as:
 
 ---
 
-## 📊 Results (example runs)
-| Model | Val Accuracy | Val Macro-F1 | Test Accuracy | Test Macro-F1 |
-|-------|-------------|--------------|---------------|---------------|
-| **MLP** | ~86% | ~0.85 | ~85% | ~0.84 |
-| **CNN** | ~92% | ~0.91 | ~91% | ~0.90 |
-
-> CNN significantly outperforms MLP on Fashion-MNIST.
-
----
-
 ## 🔬 Visualizations
 The notebook/Colab includes:
 
@@ -102,9 +92,3 @@ The notebook/Colab includes:
 2. Select **GPU runtime** (`Runtime > Change runtime type > GPU`)  
 3. Run all cells  
 
-### 🔹 Local Setup
-```bash
-git clone https://github.com/yourusername/fashion-mnist-classifier.git
-cd fashion-mnist-classifier
-pip install -r requirements.txt
-python train.py
